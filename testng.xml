@@ -1,0 +1,10 @@
+//This is a testng.xml file which controls the execution 
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "C:\Users\tejasrimadas\Downloads\testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="1" name="Test">
+  <classes>
+       <class name="runner.TestRunner"/>
+  </classes>
+  </test>
+</suite> 
